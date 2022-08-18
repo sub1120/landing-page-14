@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding:0px;
+    margin:0px;
+    font-family: Poppins, sans-serif;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    background-color: #F5F2F0;
+}
+
+.left{
+    background-image: url("../assets/pexels-rfstudio-3819572.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding-top:50px;
+    padding-left:50px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.right{
+    margin:50px;
+    
+}
+
+.nav-item{
+    display: inline;
+    margin:0px 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:black;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+}
+
+.social img{
+    width: 20px;
+}
+
+.dance-img img{
+    width: 400px;
+}
+
+.empty-line{
+    height: 1px;
+    width: 520px;
+    background: black;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.right-top{
+    position: relative;
+    display: flow-root;
+}
+
+.crea{
+    font-size: 80px;
+}
+
+.tivity{
+    font-size: 80px;
+    padding-left: 100px;
+}
+
+.check-btn{
+    float: right;
+}
+
+.check-btn button{
+    padding:15px 40px;
+    border: none;
+    background-color: #333333;
+    color:#ffffff;
+    font-weight: 700;
+}
+
+.right-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin:50px 0px;
+}
+
+.feature-item{
+    border-left:1px solid #000000;
+    padding:10px 50px;
+}
