@@ -1,6 +1,6 @@
 # Landing Page Project #14
 
-## Highlights
 - By Subham Sahu
-- Learned CSS position, margin, and padding property.
+- Learned Html elements, CSS fonts & styles, CSS Flex Box.
 - Developed in 4 hours.
+- [Deployed Link](https://stately-daifuku-df5f73.netlify.app/)
